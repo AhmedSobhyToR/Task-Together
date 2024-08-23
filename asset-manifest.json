@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Task-Together/static/css/main.3f88afdf.css",
+    "main.js": "/Task-Together/static/js/main.2b506c53.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Task-Together/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/s_LE_auto_x2(1)(1).png": "/Task-Together/static/media/s_LE_auto_x2(1)(1).b6f4794705f66b7cd3c7.png",
+    "static/media/fontawesome-webfont.eot": "/Task-Together/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Task-Together/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/BL.jpg": "/Task-Together/static/media/BL.5c7131368b0a79a36643.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Task-Together/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Task-Together/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/Task-Together/index.html",
+    "main.3f88afdf.css.map": "/Task-Together/static/css/main.3f88afdf.css.map",
+    "main.2b506c53.js.map": "/Task-Together/static/js/main.2b506c53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f88afdf.css",
+    "static/js/main.2b506c53.js"
+  ]
+}
