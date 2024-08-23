@@ -1,0 +1,32 @@
+  .no-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 800px;
+    font-size: 1.5em;
+    color: #888;
+  }
+
+.recharts-bar-rectangle:hover {
+    fill: #8884d8 !important;
+    opacity: 1 !important;   
+  }
+  
+  #dashboard{
+    width: 1200px !important;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+.recharts-surface, .recharts-responsive-container{
+  height: 290px !important;
+  width:  800px !important;
+  font-size: 2rem !important;
+}
+
+.remaining-time{
+  font-size: 1.5rem;
+
+}

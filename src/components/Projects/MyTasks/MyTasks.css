@@ -1,0 +1,92 @@
+/* Add this CSS for the sidebar */
+h2{
+  color: black;
+}
+
+/* Adjust the main content area */
+.main-content {
+
+  padding: 20px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.my-tasks-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-input {
+
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.headerAbilityDiv .menuBtn {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.headerAbilityDiv .menuBtn .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.headerAbilityDiv .menuBtn:hover .dropdown-content {
+  display: block;
+}
+
+.headerAbilityDiv .menuBtn .dropdown-content span {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.menuBtn{
+  padding: 0.5rem;
+  color: black;
+  font-size: 2rem;
+}
+
+
+.headerAbilityDiv .menuBtn .dropdown-content span:hover {
+  background-color: #f1f1f1;
+}
+
+.each-task {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  color: white;
+  min-width: 500px;
+  max-width: 500px;
+}
+
+
+.my-tasks{
+  max-height: 580px !important;
+  overflow: auto;
+  scrollbar-width: thin;
+}
+
+.each-task{
+  background-color:  rgb(0, 0, 0,0.6);
+  border-radius: 0.7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  margin: 0.4rem;
+  border-radius: 0.7rem;
+}

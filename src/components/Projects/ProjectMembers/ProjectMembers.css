@@ -1,0 +1,45 @@
+ul li{
+    list-style-type: none;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0.2rem 0;
+    border-radius: 0.7rem;
+    display: flex;
+    justify-content: space-around;
+    width:500px
+    
+}
+li span{
+    transition:  0.3s ease;
+}
+li span:hover{
+    color: rgb(86, 102, 222);
+}
+
+.member-item {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+.member-item p{
+  margin-left: 150px;
+}
+  
+  .member-nickname {
+    flex-grow: 1;
+  }
+  
+  .member-icon {
+    cursor: pointer;
+    margin-right: 50px; /* Adjust the space between nickname and icon */
+  }
+  
+  .headerBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

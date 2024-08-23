@@ -1,0 +1,444 @@
+
+section {
+
+  padding-left: 12rem;
+  overflow: hidden;
+}
+body{
+  overflow: hidden;
+}
+
+h2 {
+  color: red;
+}
+
+p {
+  color: white;
+}
+
+
+
+.groups-page {
+  display: flex;
+  padding: 0 0.5rem;
+
+}
+
+/* Other styling remains the same */
+.my-groups,
+.group-abilities {
+  border: 1px solid white;
+  border-radius: 0.7em;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.7rem;
+  height: calc(100vh);
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.my-groups {
+  width: 30%;
+}
+.my-groups h3{
+  color: white;
+  font-weight: 600;
+}
+
+.group-abilities {
+  width: 70%;
+}
+
+.group-image {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.headerAbilityDiv {
+  min-height: max-content;
+}
+
+.menuBtn {
+  padding: 0.2rem 0.4rem;
+  margin: 0.2rem;
+  border: none;
+  border-radius: 1em;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+  text-align: center;
+  width: 20px;
+  z-index: 5000;
+}
+
+.menuBtn:hover {
+  background-color: rgb(86, 102, 222);
+}
+
+.addProjectArea {
+  display: block;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.addProjectArea div {
+  margin-bottom: 15px;
+}
+
+.addProjectArea label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.addProjectArea input[type="text"],
+.addProjectArea textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.addProjectArea textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.addProjectArea input[type="button"] {
+  background-color: #545454;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  width: 50%;
+}
+
+.addProjectArea input[type="button"]:hover {
+  background-color: #616361;
+}
+
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.container p {
+  color: #545454;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container .right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+
+.chat-text {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem;
+  border-radius: 0.7rem;
+  background: #fff;
+  bottom: auto;
+  border-top: 1px solid red;
+}
+
+.chat-text input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 0.7rem;
+  margin-right: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.chat-text span {
+  background: #9c9c9c;
+  border-radius: 0.7rem;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.fa-trash {
+  margin-left: 4rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.group-info,
+.each-project {
+  border: 2px solid rgb(246, 240, 240);
+  padding: 0.1rem;
+  border-radius: 0.7em;
+  font-size: 1.2rem;
+  margin: 0.4rem 0;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  min-height: 7rem !important;
+}
+
+.group-info:hover,
+.group-info.selected,
+.each-project:hover {
+  background-color: rgb(86, 102, 222);
+}
+
+.group-image {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.headerAbilityDiv {
+  min-height: max-content;
+}
+
+.addProjectArea {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.addProjectArea div {
+  margin-bottom: 15px;
+}
+
+.addProjectArea label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.addProjectArea input[type="text"],
+.addProjectArea textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.addProjectArea textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.addProjectArea input[type="button"] {
+  background-color: #545454;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  width: 50%;
+}
+
+.addProjectArea input[type="button"]:hover {
+  background-color: #616361;
+}
+
+/* Chat Part */
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.container p {
+  color: #545454;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container .right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+
+.chat-text {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem;
+  border-radius: 0.7rem;
+  background: #fff;
+  bottom: auto;
+  border-top: 1px solid red;
+}
+
+.chat-text input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 0.7rem;
+  margin-right: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.chat-text span {
+  background: #9c9c9c;
+  border-radius: 0.7rem;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+
+
+.fa-trash {
+  margin-left: 4rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Group Info */
+.group-info,
+.each-project {
+  border: 2px solid rgb(246, 240, 240);
+  padding: 0.1rem;
+  border-radius: 0.7em;
+  font-size: 1.2rem;
+  margin: 0.4rem 0;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  min-height: 7rem !important;
+}
+
+.group-info:hover,
+.group-info.selected,
+.each-project:hover {
+  background-color: rgb(86, 102, 222);
+}
+
+.group-image {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.headerAbilityDiv {
+  min-height: max-content;
+}
+
+.addProjectArea {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.addProjectArea div {
+  margin-bottom: 15px;
+}
+
+.addProjectArea label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.addProjectArea input[type="text"],
+.addProjectArea textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.addProjectArea textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.addProjectArea input[type="button"] {
+  background-color: #545454;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  width: 50%;
+}
+
+.addProjectArea input[type="button"]:hover {
+  background-color: #616361;
+}
+
+ 

@@ -1,0 +1,182 @@
+body,
+html {
+
+	background: #4c4ce7;
+	background: -webkit-linear-gradient(to right, #405671, #86A8E7, #dfdfe6);
+	background: linear-gradient(to right, #647ba5, #86A8E7, #bcbcd7);
+}
+
+.user_info {
+	justify-content: center;
+	color:white;
+	font-size: 1.5rem;
+}
+.chat {
+	color: #120e0d;
+	display: flex;
+	width: 100%;
+	height: 100% !important;
+	margin: 0;
+}
+
+.card {
+	height: 500px;
+	border-radius: 15px ;
+	background: rgba(0, 0, 0, 0.2); 
+	height: 609px;
+	width: 100%;
+	
+}
+.messages_card_body {
+    display: flex;
+    flex-direction: column-reverse; /* Ensures messages stack from the bottom */
+    overflow-y: auto;
+    scrollbar-width: thin;
+	
+}
+
+.card-header {
+	border-radius: 15px 15px 0 0 !important;
+	border-bottom: 0 !important;
+	background-color: rgba(0, 0, 0, 0.2); 
+}
+
+.card-footer {
+	display: inline-flexbox;
+	border-radius: 15 0 15px 15px !important;
+	border-top: 20 !important;
+	
+  }
+
+.container {
+	align-content: center;
+}
+.type_messages {
+	background-color: rgba(0, 0, 0, 0.3) ;
+	height: 2px ;
+	border-radius:15px 15px 15 15;
+	overflow-y:auto;
+	border: none;
+	border-bottom: 1px solid rgba(1, 5, 115, 0.6);
+}
+.type_messages::placeholder {
+    color: #888; /* This sets the color of the placeholder text */
+}
+.type_messages:focus {
+	box-shadow: none ;
+	outline: 0px ;
+	border: none;
+	background-color: none;
+}
+.send_btn {
+	border-radius: 900 100px 150px 80 !important;
+	background-color: rgba(0, 0, 0, 0.3) !important;
+	border: 0 !important;
+	color: rgb(241, 240, 244) !important;
+	cursor: pointer;
+	padding: 0.7rem;
+	border-left: none;
+
+}
+.send_btn:hover{
+	color: rgba(0, 0, 0, 0.6) !important ;
+}
+.msg_cotainer {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
+	border-radius: 25px;
+	background-color:  rgba(0, 0, 0, 0.6);
+	color: white;
+	padding: 10px;
+	position: relative;
+	font-size: 1.2rem;
+
+}
+.msg_cotainer_send {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 10px;
+	border-radius: 25px;
+	background-color: #4ef583;
+	padding: 10px;
+	position: relative;
+}
+.msg_time, .msg_time_send {
+	position: absolute;
+	bottom: -15px;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 10px;
+	display: inline-flex;
+	align-items: center;
+	white-space: nowrap; 
+}
+.msg_time {
+	left: 0;
+}
+.msg_time_send {
+	right: 0;
+}
+.msg_head {
+	position:left;
+	color: #c23616;
+}
+
+
+
+
+
+
+
+
+
+
+/* width */
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+@media(max-width: 576px) {
+	.contacts_card {
+		margin-bottom: 15px !important;
+	}
+}
+.msg_sender {
+    font-weight: bold;
+    margin-bottom: 2px;
+    display: block;
+}
+
+.messageSender{
+	font-weight: bold;
+    display: block;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 1.2rem;
+	position: relative;
+	display: flex;
+	justify-content: left;
+	color: #bacfe9;
+}

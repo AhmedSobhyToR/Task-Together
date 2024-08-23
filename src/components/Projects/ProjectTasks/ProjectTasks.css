@@ -1,0 +1,110 @@
+.section {
+    color: red;
+}
+
+.project-page .project-tasks {
+    border: 1px solid red;
+    border-radius: 0.7em;
+    width: 40rem;
+    min-height: 30rem;
+}
+
+.my-tasks-header {
+    font-size: 1.3rem;
+}
+
+.my-tasks-header h2 {
+    display: inline;
+}
+
+.my-tasks-header .fa-magnifying-glass {
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.my-tasks-header .fa-magnifying-glass:hover {
+    transform: scale(1.2);
+}
+
+.my-tasks-header input[type='text'] {
+    padding-left: 0.1rem;
+    border-radius: 0.3rem;
+}
+
+.my-tasks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.each-task input {
+    width: 20px;
+    height: 20px;
+}
+
+.accordion-item{
+    width: 1000px;
+}
+
+.accordion-collapse {
+    padding: 0.4rem;
+    border: 1px solid rgb(0, 0, 0,0.6);
+    border-radius: 0.7rem !important;
+    background-color: rgb(0, 0, 0,0.6)!important;
+
+
+}
+
+.accordion-body {
+
+    border-radius: 0.7rem;
+    color: white;
+    margin-bottom: 0.2rem;
+}
+
+.TasksForMember {
+    display: block;
+    left: auto;
+}
+
+.accordion-header {
+   border-radius: 0.7rem !important;
+   background-color: rgb(0, 0, 0,0.6) !important;;
+}
+
+.fa-circle-check {
+    color: #4caf50;
+}
+
+.fa-hourglass-half {
+    color: #f44336;
+}
+
+.accordion-button {
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0,0.6) !important;
+    border-radius: 0.7rem !important;
+    color: white !important;
+}
+
+
+.task{
+    background-color:  rgb(0, 0, 0,0.6);
+    border-radius: 0.7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    margin: 0.4rem;
+    border-radius: 0.7rem;
+
+}
+.task p{
+ display: flex;
+ flex-wrap: wrap;
+    
+}

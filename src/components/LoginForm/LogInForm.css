@@ -1,0 +1,59 @@
+/* src/components/styles/LogInForm.css */
+.sign-up {
+    color: #eaeaea;
+    min-height: 50vh;
+    border: 1px solid white;
+    border-radius: 0.7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 24em;
+    padding: 2em 2em;
+  }
+  
+  .sign-up h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.7em;
+  }
+  
+  .sign-up div {
+    margin: 0.5em 0;
+  }
+  
+  .sign-up div label {
+    font-size: 1.3em;
+    margin-right: 0.2em;
+  }
+  
+  .sign-up div input {
+    padding: 0.5em 1.5em 0.5em 0.4em;
+    border: none;
+    border-radius: 0.7em;
+    font-size: 1.2em;
+  }
+  
+  .sign-up p {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: red;
+  }
+  
+  .signlog-button {
+    padding: 0.6em 1.4em;
+    margin: 1em;
+    background-color: grey;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    color: #eaeaea;
+    font-size: 1.2em;
+    font-weight: 500;
+    transition: 0.3s ease;
+  }
+  
+  .signlog-button:hover {
+    background-color: rgb(165, 158, 158);
+  }
+  

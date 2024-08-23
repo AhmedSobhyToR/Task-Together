@@ -1,0 +1,80 @@
+.addAnnouncementArea {
+  background-color: rgba(0, 0, 0, 0.6); 
+  border: 2px solid #ddd;
+  border-radius: 8px; 
+  padding: 20px; 
+  width: 300px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; 
+  color: #fff; 
+}
+
+.addAnnouncementArea h3 {
+  font-size: 1.5rem; 
+  margin-bottom: 10px;
+}
+
+.addAnnouncementArea input {
+  width: calc(100% - 20px); 
+  padding: 10px; 
+  margin-bottom: 10px; 
+  border: 2px solid #ccc;
+  border-radius: 0.7rem; 
+  font-size: 1rem; 
+}
+
+.addAnnouncementArea textarea {
+  width: calc(100% - 20px); 
+  padding: 7px; 
+  margin-bottom: 10px; 
+  border: 2px solid #ccc;
+  border-radius: 0.7rem; 
+  font-size: 1rem; 
+}
+
+.addAnnouncementArea button {
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: #fff; 
+  border: none; 
+  border-radius: 4px; 
+  padding: 10px 20px;
+  font-size: 1rem; 
+  cursor: pointer; 
+  transition: background-color 0.3s;
+}
+
+.addAnnouncementArea button:hover {
+  background-color: rgb(86, 102, 222); 
+}
+
+.announcement {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 20px 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.announcement h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.announcement p {
+  font-size: 1rem;
+}
+
+
+.edit-ann{
+  cursor: pointer;
+}
+.annhead{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 250px;
+}
+.annhead span{
+  padding-left: -150px;
+}
